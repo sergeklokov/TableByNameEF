@@ -9,6 +9,7 @@ create table AnimalDog(
 );
 insert into AnimalDog (Name, Color, Age) values ('Grey', 'Grey', 5);
 insert into AnimalDog (Name, Color, Age) values ('Barky', 'Black', null);
+insert into AnimalDog (Name, Color, Age) values ('Quiet', 'Brown', 8);
 
 DROP TABLE IF EXISTS AnimalCat
 create table AnimalCat(
@@ -18,6 +19,9 @@ create table AnimalCat(
 	Age int
 );
 insert into AnimalCat (Name, Color, Age) values ('Purr', 'White', 3);
+insert into AnimalCat (Name, Color, Age) values ('Puss', 'Fluffy', 2);
+insert into AnimalCat (Name, Color, Age) values ('Cutie', 'Yellow', 7);
+insert into AnimalCat (Name, Color, Age) values ('Smelly', 'Blue', 9);
 
 DROP TABLE IF EXISTS AnimalHorse
 create table AnimalHorse(
